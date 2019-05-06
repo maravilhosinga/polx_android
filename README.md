@@ -43,10 +43,7 @@ Your terminal or command line interface will print or log `AddCall Server is on 
 
 #### Instalation steps
 
-1. Open your app project that you want to add <strong>AddCall</strong>
-2. Go to File -> New -> Import module and navigate to downlaoded files unzip and select <strong>addcall</strong> folder
-3. Confirm and wait for <strong>gradle</strong> to index it and downlaod all needed dependencies
-4. Go to your app project <strong>gradle</strong> file and add `implementation project(':addcall')` inside `dependencies`
+
 
 ```java
 dependencies {
